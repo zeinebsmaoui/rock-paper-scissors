@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+.venv311/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# MediaPipe Tasks model (not used by main.py, which relies on cvzone's
+# legacy mp.solutions.hands API)
+hand_landmarker.task
+
+# OS
+.DS_Store
+Thumbs.db
